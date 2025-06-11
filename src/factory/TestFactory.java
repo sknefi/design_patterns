@@ -3,9 +3,10 @@ package factory;
 public class TestFactory {
 	public static void test()
 	{
-		ShapeFactory.drawShape("circle");
-		ShapeFactory.drawShape("square");
-		ShapeFactory.drawShape("triangle");
-		ShapeFactory.drawShape("hihi");
+		Shape shape = ShapeFactory.createShape("triangle"); // square/triangle/circle/*
+		if (shape != null)
+			shape.draw();
+		else
+			System.out.println("Invalid shape");
 	}
 }
