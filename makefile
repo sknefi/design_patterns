@@ -1,6 +1,6 @@
 SRCDIR = src
 OBJDIR = objs
-MAIN_CLASS = patterns.Main
+MAIN_CLASS = Main
 
 # Find all Java files
 JAVA_FILES = $(shell find $(SRCDIR) -name "*.java")
