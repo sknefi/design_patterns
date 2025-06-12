@@ -2,6 +2,8 @@ package observer;
 
 import java.util.*;
 
+// Youtube channel as a Subject can send notifications to all its Observers (Subscribers)
+// to notify them about some changes
 public class YtChannel implements Subject {
     private List<Observer>  obs = new ArrayList<>();
     
