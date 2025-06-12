@@ -1,6 +1,7 @@
 import singleton.TestSingleton;
 import builder.TestBuilder;
 import factory.TestFactory;
+import iterator.TestCollection;
 import observer.TestObserver;
 
 public class Main {
@@ -16,6 +17,9 @@ public class Main {
 
 		System.out.println("\n=== Testing Observer Pattern ===");
 		TestObserver.test();
+
+		System.out.println("\n=== Testing Iterator Pattern ===");
+		TestCollection.test();
 
 		System.out.println("\n");
 	}
