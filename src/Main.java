@@ -1,5 +1,6 @@
 import singleton.TestSingleton;
 import strategy.TestStrategy;
+import adapter.TestAdapter;
 import builder.TestBuilder;
 import factory.TestFactory;
 import iterator.TestIterator;
@@ -22,8 +23,11 @@ public class Main {
 		System.out.println("\n=== Testing Iterator Pattern ===");
 		TestIterator.test();
 
-		System.out.println("\n=== Testing Iterator Pattern ===");
+		System.out.println("\n=== Testing Strategy Pattern ===");
 		TestStrategy.test();
+
+		System.out.println("\n=== Testing Adapter Pattern ===");
+		TestAdapter.test();
 
 		System.out.println("\n");
 	}
