@@ -1,7 +1,8 @@
 import singleton.TestSingleton;
+import strategy.TestStrategy;
 import builder.TestBuilder;
 import factory.TestFactory;
-import iterator.TestCollection;
+import iterator.TestIterator;
 import observer.TestObserver;
 
 public class Main {
@@ -19,7 +20,10 @@ public class Main {
 		TestObserver.test();
 
 		System.out.println("\n=== Testing Iterator Pattern ===");
-		TestCollection.test();
+		TestIterator.test();
+
+		System.out.println("\n=== Testing Iterator Pattern ===");
+		TestStrategy.test();
 
 		System.out.println("\n");
 	}
