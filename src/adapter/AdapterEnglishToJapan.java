@@ -1,5 +1,8 @@
 package adapter;
 
+// this design patern translates content of X so Y could understand,
+// in this case, X is english guy, content is english text and Y is japaneese guy
+// after translating content of english guy the japaneese guy can understand it and work with it
 public class AdapterEnglishToJapan implements JapaneeseSpeakingEntity{
 	
 	private EnglishSpeakingEntity enEntity;
