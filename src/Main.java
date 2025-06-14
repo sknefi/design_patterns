@@ -2,6 +2,7 @@ import singleton.TestSingleton;
 import strategy.TestStrategy;
 import adapter.TestAdapter;
 import builder.TestBuilder;
+import command.TestCommand;
 import facade.TestFacede;
 import factory.TestFactory;
 import iterator.TestIterator;
@@ -32,6 +33,9 @@ public class Main {
 
 		System.out.println("\n=== Testing Facede Pattern ===");
 		TestFacede.test();
+
+		System.out.println("\n=== Testing Command Pattern ===");
+		TestCommand.test();
 
 		System.out.println("\n");
 	}
