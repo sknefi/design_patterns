@@ -3,6 +3,7 @@ import strategy.TestStrategy;
 import adapter.TestAdapter;
 import builder.TestBuilder;
 import command.TestCommand;
+import decorator.TestDecorator;
 import facade.TestFacede;
 import factory.TestFactory;
 import iterator.TestIterator;
@@ -36,6 +37,9 @@ public class Main {
 
 		System.out.println("\n=== Testing Command Pattern ===");
 		TestCommand.test();
+
+		System.out.println("\n=== Testing Decorator Pattern ===");
+		TestDecorator.test();
 
 		System.out.println("\n");
 	}
